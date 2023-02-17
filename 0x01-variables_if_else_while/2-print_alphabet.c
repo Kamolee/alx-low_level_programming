@@ -1,10 +1,9 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include<time.h>
 /**
- * Main - Prints the alphabets
- *
- * Return: 0
+ * Main -Prints the alphabets
+ * Description -' print alphabets'
+ * Return:0
  */
 int main(void)
 {char alp[26] = "abcdefghijklmnopqrstuvwxyz";
