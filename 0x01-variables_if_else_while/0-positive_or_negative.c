@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 /**
- *main-Determine if number entered is positive or negative 
+ *main-Determine if number entered is positive or negative
  *Return:0(success)
  */
 int main(void)
