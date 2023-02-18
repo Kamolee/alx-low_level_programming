@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<time.h>
 /**
- * Main -Prints the alphabets
+ * main- Prints the alphabets
  * Description -' print alphabets'
  * Return:0
  */
