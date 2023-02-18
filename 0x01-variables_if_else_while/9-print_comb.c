@@ -13,6 +13,6 @@ if (m != 57)
 putchar (' ');
 }
 putchar('\n');
-return (0);
 }
+return (0);
 }
