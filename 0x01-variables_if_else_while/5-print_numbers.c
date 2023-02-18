@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * Main- program that prints all single digit numbers
+ * main- program that prints all single digit numbers
  * of base 10 starting from 0
  *
  * Return:0
  */
-int Main(void)
+int main(void)
 { int num;
 for (num = 0; num < 10; num++)
 printf("%d", num);
