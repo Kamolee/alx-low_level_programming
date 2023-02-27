@@ -17,7 +17,7 @@ while (*y != '\0')
 y++;
 longone++;
 }
-t = longione - 1;
+t = longone - 1;
 for (o = 0 ; o <= t ; o++)
 {
 if (o % 2 == 0)
