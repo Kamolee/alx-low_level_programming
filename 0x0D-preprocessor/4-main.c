@@ -1,6 +1,6 @@
-#include "pi.h"
-#include "pi.h"
 #include <stdio.h>
+#include "sum.h"
+#include "sum.h"
 
 /**
  * main - check the code
@@ -9,10 +9,8 @@
  */
 int main(void)
 {
-float a;
-float r;
-r = 98;
-a = PI * r * r;
-printf("%.3f\n", a);
+int s;
+s = SUM(98, 1024);
+printf("%d\n", s);
 return (0);
 }
