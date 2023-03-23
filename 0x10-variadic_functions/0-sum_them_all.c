@@ -3,10 +3,10 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
- * sum_them_all - calculates the sum
- *
- * @n - declared value
+ * sum_them_all - Returns the sum of all parameters
+ * @n - number of parameters
  * return : 0 if n ==0
+ * otherwise sum
  */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -16,7 +16,7 @@ if (n != 0)
 {
 int i = 0;
 int sum = 0;
-sum = sum + n;
+sum = sum + va_arg(argu, int);
 i++;
 va_end(argu);
 }
