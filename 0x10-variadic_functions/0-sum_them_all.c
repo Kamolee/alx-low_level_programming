@@ -12,11 +12,9 @@ int sum_them_all(const unsigned int n, ...)
 {
 va_list argu;
 va_start(argu, n);
-if (n != 0)
-{
-int sum = 0;
+unsigned int sum = 0;
+for (unsigned int i = 0;i < n; i++)
 sum = sum + va_arg(argu, int);
 va_end(argu);
-}
-return (0);
+return (sum);
 }
