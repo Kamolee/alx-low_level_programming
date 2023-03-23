@@ -12,9 +12,9 @@ int sum_them_all(const unsigned int n, ...)
 {
 va_list argu;
 va_start(argu, n);
-if (n != 0)
+while (n != 0)
 {
-int i = 0;
+unsigned int i = 0;
 int sum = 0;
 sum = sum + va_arg(argu, int);
 i++;
