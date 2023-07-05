@@ -25,7 +25,7 @@ return (count_sqrt_recursion(n, 0));
  * Return: the resulting square root
  */
 
-int count_sqrt_recursion(int n, int i);
+int count_sqrt_recursion(int n, int i)
 {
 if (i * i > n)
 return (-1);
