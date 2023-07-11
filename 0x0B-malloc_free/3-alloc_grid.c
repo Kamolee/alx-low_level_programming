@@ -24,7 +24,7 @@ for (i = 0; i < height; i++)
 chk[i] = malloc(sizeof(int) * width);
 if (chk[i] == NULL)
 {
-for (i = 0; i >= 0; i--)
+for (i = 0; i > 0; i--)
 free(chk[i]);
 free(chk);
 return (NULL);
