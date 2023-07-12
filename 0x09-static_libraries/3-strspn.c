@@ -13,7 +13,7 @@ unsigned int m = 0;
 int t;
 while (*s)
 {
-for (r = 0; accept[t]; t++)
+for (t = 0; accept[t]; t++)
 {
 if (*s == accept[t])
 {
@@ -23,6 +23,4 @@ break;
 else if (accept[t + 1] == '\0')
 return (m);
 }
-s++;
 }
-return (m);
