@@ -1,7 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - prints the nme of the file
+ *
+ * return:0(success)
+ */
 int main(void)
 {
-printf("Name of source file: %s\n", __FILE__);
+printf(" %s\n", __FILE__);
 return (0);
 }
